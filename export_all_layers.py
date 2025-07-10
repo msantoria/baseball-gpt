@@ -11,7 +11,7 @@ from datetime import date
 #  2) NOT re-download all historic data every run.
 #  3) Return a DataFrame quickly if nothing new is needed.
 from layerone      import fetch_layer_one      as fetch_layerone
-from layertwo      import fetch_layer_two      as fetch_layertwo
+
 from layerthreeA   import fetch_layer_threeA   as fetch_layerthreeA
 from layerfour     import fetch_layer_four     as fetch_layerfour
 from layerfive     import fetch_layer_five     as fetch_layerfive
@@ -65,7 +65,7 @@ def main():
 
     # 1) Fetch each layer—but load from disk if checkpoint already exists
     df1  = load_or_fetch("layerone",     fetch_layerone,     today_str)
-    df2  = load_or_fetch("layertwo",     fetch_layertwo,     today_str)
+    
     df3  = load_or_fetch("layerthreeA",  fetch_layerthreeA,  today_str)
     df4  = load_or_fetch("layerfour",    fetch_layerfour,    today_str)
     df5  = load_or_fetch("layerfive",    fetch_layerfive,    today_str)
@@ -80,7 +80,7 @@ def main():
     # 2) Gather them all into a dict for writing
     all_dfs = {
         "layerone":     df1,
-        "layertwo":     df2,
+        
         "layerthreeA":  df3,
         "layerfour":    df4,
         "layerfive":    df5,
