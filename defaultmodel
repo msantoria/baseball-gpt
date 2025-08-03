@@ -1,0 +1,103 @@
+{
+    "models": {
+        "PVS+": {
+            "description": "Pitcher Volatility Score",
+            "formula": "STD(xwOBA) + STD(HardHit%) + BB% + HR/9 + AVG EV + K% delta (vs L/R)",
+            "layers": [
+                "layertwo",
+                "layerfour",
+                "layerseven",
+                "layereleven"
+            ]
+        },
+        "OFS+": {
+            "description": "Offensive Firepower Score",
+            "formula": "Barrel% + HardHit% + BB/K Ratio + xSLG + Launch Angle Range + xwOBA + ISO + Avg EV",
+            "layers": [
+                "layerthreeA",
+                "layerfive",
+                "layer13"
+            ]
+        },
+        "BCI+": {
+            "description": "Bullpen Collapse Index",
+            "formula": "ERA + BB/9 + HR/9 + xwOBA + AvgEV + WHIP (30-day)",
+            "layers": [
+                "layerseven"
+            ]
+        },
+        "HES+": {
+            "description": "Hitter Edge Score",
+            "formula": "(xwOBA - est_wOBA) + ISO + RC27 + xBA + Avg EV + xSLG + OBP + BB%",
+            "layers": [
+                "layersix",
+                "layer13",
+                "layereleven"
+            ]
+        },
+        "AEI+": {
+            "description": "Arsenal Exploitability Index",
+            "formula": "\u03a3((team_xwOBA_vs_pitch - pitch_xwOBA) * usage)",
+            "layers": [
+                "layerfour",
+                "layerfive"
+            ]
+        },
+        "CTD+": {
+            "description": "Contact Threat Differential",
+            "formula": "(Team HardHit% - Bullpen Whiff%) + (Avg Launch Angle - GroundBall%)",
+            "layers": [
+                "layerthreeA",
+                "layerseven",
+                "layereleven"
+            ]
+        },
+        "PRB+": {
+            "description": "Park & Relief Bias",
+            "formula": "xwOBA_park_adjusted + wind_effect + bullpen_HardHit% - bullpen_xwOBA",
+            "layers": [
+                "layerseven",
+                "layereight"
+            ]
+        },
+        "VMI+": {
+            "description": "Velocity Mismatch Index",
+            "formula": "(Pitcher Velo - League Avg EV) + Spin Rate + Extension Z-score",
+            "layers": [
+                "layerfour",
+                "layerseven",
+                "layereleven"
+            ]
+        },
+        "STACK-X": {
+            "description": "Hitter ON-BASE Weighted Composite",
+            "formula": "OBP + xBA + BB% + RC + RC27 + xwOBA + xSLG + K% Inverse + ISO",
+            "layers": [
+                "layer13",
+                "layereleven"
+            ]
+        }
+    },
+    "ranking_algorithm": {
+        "name": "MODEL STACK R2",
+        "weights": {
+            "OFS+": 2.0,
+            "HES+": 2.0,
+            "STACK-X": 2.0,
+            "AEI+": 1.5,
+            "CTD+": 1.2,
+            "PVS+": -1.0,
+            "BCI+": -1.5
+        },
+        "method": "Z-score normalization across all model outputs, then weighted sum"
+    },
+    "enforcement": {
+        "min_data_points_per_field": 10,
+        "fallback": "Insufficient data. Please clarify matchup or stat layer.",
+        "disabled_layers": [
+            "layerthreeB",
+            "layerten"
+        ],
+        "join_mapping_source": "layer_join_map.py"
+    }
+}
