@@ -1,0 +1,1829 @@
+{
+  "layerone": {
+    "rows": 13,
+    "columns": [
+      "Game Time (UTC)",
+      "Away Team",
+      "Home Team",
+      "Away Pitcher",
+      "Away Pitcher ID",
+      "Home Pitcher",
+      "Home Pitcher ID",
+      "Away Velo",
+      "Away Spin",
+      "Away Hard Hit %",
+      "Away K %",
+      "Away BB %",
+      "Away xwOBA",
+      "Away xBA",
+      "Away Vert Break",
+      "Away Horz Break",
+      "Away Release Extension",
+      "Away Rel Pos X",
+      "Away Rel Pos Z",
+      "Home Velo",
+      "Home Spin",
+      "Home Hard Hit %",
+      "Home K %",
+      "Home BB %",
+      "Home xwOBA",
+      "Home xBA",
+      "Home Vert Break",
+      "Home Horz Break",
+      "Home Release Extension",
+      "Home Rel Pos X",
+      "Home Rel Pos Z"
+    ],
+    "sample_data": {
+      "Game Time (UTC)": [
+        "2025-07-12T17:05:00Z",
+        "2025-07-12T17:10:00Z",
+        "2025-07-12T20:05:00Z",
+        "2025-07-12T20:10:00Z",
+        "2025-07-12T23:35:00Z",
+        "2025-07-13T01:38:00Z",
+        "2025-07-13T02:05:00Z"
+      ],
+      "Away Team": [
+        "Chicago Cubs",
+        "Seattle Mariners",
+        "Los Angeles Dodgers",
+        "Miami Marlins",
+        "Colorado Rockies",
+        "New York Mets",
+        "Tampa Bay Rays",
+        "Cleveland Guardians",
+        "Washington Nationals",
+        "Texas Rangers"
+      ],
+      "Home Team": [
+        "New York Yankees",
+        "Detroit Tigers",
+        "San Francisco Giants",
+        "Baltimore Orioles",
+        "Cincinnati Reds",
+        "Kansas City Royals",
+        "Boston Red Sox",
+        "Chicago White Sox",
+        "Milwaukee Brewers",
+        "Houston Astros"
+      ],
+      "Away Pitcher": [
+        "Matthew Boyd",
+        "George Kirby",
+        "Shohei Ohtani",
+        "Janson Junk",
+        "Bradley Blalock",
+        "Frankie Montas",
+        "Shane Baz",
+        "Tanner Bibee",
+        "Shinnosuke Ogasawara",
+        "Jacob deGrom"
+      ],
+      "Away Pitcher ID": {
+        "min": 554430.0,
+        "max": 829272.0,
+        "mean": 649511.6923076923
+      },
+      "Home Pitcher": [
+        "Max Fried",
+        "Casey Mize",
+        "Landen Roupp",
+        "Trevor Rogers",
+        "Brady Singer",
+        "Michael Lorenzen",
+        "Garrett Crochet",
+        "Sean Burke",
+        "Brandon Woodruff",
+        "Framber Valdez"
+      ],
+      "Home Pitcher ID": {
+        "min": 506433.0,
+        "max": 694738.0,
+        "mean": 634037.3846153846
+      },
+      "Away Velo": {
+        "min": 82.63207547169812,
+        "max": 92.68131985098458,
+        "mean": 89.60802721036886
+      },
+      "Away Spin": {
+        "min": 2090.013473545843,
+        "max": 2511.984566258648,
+        "mean": 2293.276945579873
+      },
+      "Away Hard Hit %": {
+        "min": 80.76412556053812,
+        "max": 83.84806866952789,
+        "mean": 82.85395061147243
+      },
+      "Away K %": {
+        "min": 14.28571428571429,
+        "max": 31.52302243211334,
+        "mean": 22.96560474096411
+      },
+      "Away BB %": {
+        "min": 4.307116104868914,
+        "max": 10.84745762711864,
+        "mean": 7.287532409959454
+      },
+      "Away xwOBA": {
+        "min": 0.2153103636363636,
+        "max": 0.401435625,
+        "mean": 0.3097564573516625
+      },
+      "Away xBA": {
+        "min": 0.2858666666666667,
+        "max": 0.3633786982248521,
+        "mean": 0.32221558726126825
+      },
+      "Away Vert Break": {
+        "min": 0.3331446540880503,
+        "max": 0.9363259940847847,
+        "mean": 0.6187194256924963
+      },
+      "Away Horz Break": {
+        "min": -0.983447255997371,
+        "max": 0.6837971130713714,
+        "mean": -0.1546982382772539
+      },
+      "Away Release Extension": {
+        "min": 5.989937106918239,
+        "max": 7.150705052878966,
+        "mean": 6.501701545365748
+      },
+      "Away Rel Pos X": {
+        "min": -2.775086337473493,
+        "max": 2.363588612670409,
+        "mean": -1.2022791375682345
+      },
+      "Away Rel Pos Z": {
+        "min": 5.206230566148431,
+        "max": 6.384309545875811,
+        "mean": 5.787456833141953
+      },
+      "Home Velo": {
+        "min": 85.44894894894895,
+        "max": 93.23481317055125,
+        "mean": 88.45924486870415
+      },
+      "Home Spin": {
+        "min": 2014.927904564315,
+        "max": 2501.466070096943,
+        "mean": 2321.565242246957
+      },
+      "Home Hard Hit %": {
+        "min": 79.22392026578073,
+        "max": 84.14736842105263,
+        "mean": 82.5232222435794
+      },
+      "Home K %": {
+        "min": 17.49049429657795,
+        "max": 37.5,
+        "mean": 24.59046745480305
+      },
+      "Home BB %": {
+        "min": 4.166666666666667,
+        "max": 10.35120147874307,
+        "mean": 7.952086471264352
+      },
+      "Home xwOBA": {
+        "min": 0.20805,
+        "max": 0.3615645273109244,
+        "mean": 0.3055667107843801
+      },
+      "Home xBA": {
+        "min": 0.26225,
+        "max": 0.347819320214669,
+        "mean": 0.31807957628960104
+      },
+      "Home Vert Break": {
+        "min": -0.1793267651888341,
+        "max": 1.178857142857143,
+        "mean": 0.48896150382884124
+      },
+      "Home Horz Break": {
+        "min": -0.5494135962636222,
+        "max": 0.8814432029795158,
+        "mean": 0.011060106712737643
+      },
+      "Home Release Extension": {
+        "min": 5.866290777285542,
+        "max": 6.99138505473584,
+        "mean": 6.594632056772339
+      },
+      "Home Rel Pos X": {
+        "min": -2.419890528319848,
+        "max": 3.773623623623624,
+        "mean": 0.013852476908693468
+      },
+      "Home Rel Pos Z": {
+        "min": 5.20009009009009,
+        "max": 6.246011423131843,
+        "mean": 5.728838457253685
+      }
+    }
+  },
+  "layertwo": {
+    "rows": 1671,
+    "columns": [
+      "Pitcher Name",
+      "Player ID",
+      "Pitch Type",
+      "Pitch Name",
+      "Pitch Count",
+      "Usage %",
+      "Whiff %",
+      "K %",
+      "RV/100",
+      "xwOBA",
+      "Hard Hit %"
+    ],
+    "sample_data": {
+      "Pitcher Name": [
+        "A.J. Cole",
+        "A.J. Minter",
+        "A.J. Puk",
+        "AJ Smith-Shawver",
+        "Aaron Ashby",
+        "Aaron Brooks",
+        "Aaron Bummer",
+        "Aaron Civale",
+        "Aaron Loup",
+        "Aaron Nola"
+      ],
+      "Player ID": {
+        "min": 282332.0,
+        "max": 808967.0,
+        "mean": 612240.0861759426
+      },
+      "Pitch Type": [
+        "SL",
+        "FC",
+        "FF",
+        "FS",
+        "SI",
+        "CU",
+        "ST",
+        "CH",
+        "SV"
+      ],
+      "Pitch Name": [
+        "Slider",
+        "Cutter",
+        "4-Seam Fastball",
+        "Split-Finger",
+        "Sinker",
+        "Curveball",
+        "Sweeper",
+        "Changeup",
+        "Slurve"
+      ],
+      "Pitch Count": {
+        "min": 150.0,
+        "max": 7196.0,
+        "mean": 1134.688210652304
+      },
+      "Usage %": {
+        "min": 12.9,
+        "max": 87.15,
+        "mean": 38.23154897267106
+      },
+      "Whiff %": {
+        "min": 3.1,
+        "max": 62.2,
+        "mean": 25.354014562138435
+      },
+      "K %": {
+        "min": 2.0,
+        "max": 66.7,
+        "mean": 23.013248553760224
+      },
+      "RV/100": {
+        "min": -7.1,
+        "max": 3.8,
+        "mean": 0.21650309196090164
+      },
+      "xwOBA": {
+        "min": 0.116,
+        "max": 0.504,
+        "mean": 0.3193574007580291
+      },
+      "Hard Hit %": {
+        "min": 6.7,
+        "max": 70.4,
+        "mean": 38.842772790744064
+      }
+    }
+  },
+  "layerthreeA": {
+    "rows": 682,
+    "columns": [
+      "Season",
+      "Team",
+      "Plate Appearances",
+      "At Bats",
+      "Runs",
+      "RBI",
+      "Hits",
+      "Doubles",
+      "Triples",
+      "Home Runs",
+      "Strikeouts",
+      "Walks",
+      "Hit By Pitch",
+      "Sac Flies",
+      "Sac Bunts",
+      "Stolen Bases",
+      "Caught Stealing",
+      "Ground Into DP",
+      "OBP",
+      "SLG",
+      "OPS",
+      "AVG",
+      "BABIP",
+      "Total Bases",
+      "Ground Outs",
+      "Air Outs",
+      "Left On Base",
+      "ISO",
+      "K%",
+      "BB%",
+      "XBH%",
+      "GB/FB",
+      "SB%",
+      "HBP%",
+      "SacFly%",
+      "GIDP/PA",
+      "RBI/PA",
+      "R/PA"
+    ],
+    "sample_data": {
+      "Season": {
+        "min": 2021.0,
+        "max": 2025.0,
+        "mean": 2023.0718475073313
+      },
+      "Team": [
+        "Los Angeles Dodgers",
+        "Houston Astros",
+        "Washington Nationals",
+        "Toronto Blue Jays",
+        "Oakland Athletics",
+        "Philadelphia Phillies",
+        "Chicago White Sox",
+        "Cincinnati Reds",
+        "San Diego Padres",
+        "Atlanta Braves"
+      ],
+      "Plate Appearances": {
+        "min": 292.0,
+        "max": 753.0,
+        "mean": 547.741935483871
+      },
+      "At Bats": {
+        "min": 244.0,
+        "max": 671.0,
+        "mean": 487.84897360703815
+      },
+      "Runs": {
+        "min": 20.0,
+        "max": 149.0,
+        "mean": 70.50293255131965
+      },
+      "RBI": {
+        "min": 21.0,
+        "max": 144.0,
+        "mean": 67.866568914956
+      },
+      "Hits": {
+        "min": 45.0,
+        "max": 217.0,
+        "mean": 127.47067448680352
+      },
+      "Doubles": {
+        "min": 4.0,
+        "max": 59.0,
+        "mean": 25.368035190615835
+      },
+      "Triples": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 2.090909090909091
+      },
+      "Home Runs": {
+        "min": 0.0,
+        "max": 62.0,
+        "mean": 19.614369501466275
+      },
+      "Strikeouts": {
+        "min": 10.0,
+        "max": 218.0,
+        "mean": 112.80205278592375
+      },
+      "Walks": {
+        "min": 10.0,
+        "max": 145.0,
+        "mean": 49.118768328445746
+      },
+      "Hit By Pitch": {
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 6.0175953079178885
+      },
+      "Sac Flies": {
+        "min": 0.0,
+        "max": 13.0,
+        "mean": 3.878299120234604
+      },
+      "Sac Bunts": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.5967741935483871
+      },
+      "Stolen Bases": {
+        "min": 0.0,
+        "max": 73.0,
+        "mean": 9.791788856304985
+      },
+      "Caught Stealing": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 2.6143695014662756
+      },
+      "Ground Into DP": {
+        "min": 0.0,
+        "max": 30.0,
+        "mean": 10.030791788856305
+      },
+      "OBP": {
+        "min": 0.23,
+        "max": 0.465,
+        "mean": 0.3328225806451613
+      },
+      "SLG": {
+        "min": 0.273,
+        "max": 0.725,
+        "mean": 0.4404765395894429
+      },
+      "OPS": {
+        "min": 0.542,
+        "max": 1.187,
+        "mean": 0.7732991202346042
+      },
+      "AVG": {
+        "min": 0.176,
+        "max": 0.354,
+        "mean": 0.26048093841642234
+      },
+      "BABIP": {
+        "min": 0.205,
+        "max": 0.423,
+        "mean": 0.29988563049853373
+      },
+      "Total Bases": {
+        "min": 81.0,
+        "max": 411.0,
+        "mean": 215.86363636363637
+      },
+      "Ground Outs": {
+        "min": 36.0,
+        "max": 218.0,
+        "mean": 119.39296187683284
+      },
+      "Air Outs": {
+        "min": 44.0,
+        "max": 247.0,
+        "mean": 132.65395894428153
+      },
+      "Left On Base": {
+        "min": 79.0,
+        "max": 307.0,
+        "mean": 199.67741935483872
+      },
+      "ISO": {
+        "min": 0.04500000000000004,
+        "max": 0.381,
+        "mean": 0.17999560117302052
+      },
+      "K%": {
+        "min": 0.02604166666666667,
+        "max": 0.3804713804713805,
+        "mean": 0.2066917556261093
+      },
+      "BB%": {
+        "min": 0.02626970227670753,
+        "max": 0.2217125382262997,
+        "mean": 0.08921462447022553
+      },
+      "XBH%": {
+        "min": 0.1460674157303371,
+        "max": 0.6,
+        "mean": 0.36944682143360424
+      },
+      "GB/FB": {
+        "min": 0.3943661971830986,
+        "max": 2.958904109589041,
+        "mean": 0.9350314496927029
+      },
+      "SB%": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.7539338965382986
+      },
+      "HBP%": {
+        "min": 0.0,
+        "max": 0.05166051660516605,
+        "mean": 0.010900011754965465
+      },
+      "SacFly%": {
+        "min": 0.0,
+        "max": 0.02346570397111913,
+        "mean": 0.007064532894621784
+      },
+      "GIDP/PA": {
+        "min": 0.0,
+        "max": 0.06631299734748011,
+        "mean": 0.018239363264322017
+      },
+      "RBI/PA": {
+        "min": 0.04770992366412214,
+        "max": 0.2045454545454546,
+        "mean": 0.12333313902496805
+      },
+      "R/PA": {
+        "min": 0.05555555555555555,
+        "max": 0.2074592074592075,
+        "mean": 0.12766109354144967
+      }
+    }
+  },
+  "layerfour": {
+    "rows": 1252,
+    "columns": [
+      "Pitcher ID",
+      "Pitcher Name",
+      "events",
+      "HardHit%",
+      "Barrel%",
+      "Avg Velo",
+      "Avg Spin Rate",
+      "xwOBA",
+      "xBA",
+      "Avg Extension",
+      "Rel Pos X",
+      "Rel Pos Z",
+      "Horz Break",
+      "Vert Break",
+      "Spin Axis",
+      "Plate X",
+      "Plate Z",
+      "vx0",
+      "vy0",
+      "vz0",
+      "ax",
+      "ay",
+      "az",
+      "Avg Hit Distance",
+      "Avg Exit Velo",
+      "Avg Launch Angle",
+      "Avg Zone",
+      "Avg Outs",
+      "Avg Inning"
+    ],
+    "sample_data": {
+      "Pitcher ID": {
+        "min": 434378.0,
+        "max": 829272.0,
+        "mean": 660753.0055910543
+      },
+      "Pitcher Name": [
+        "Verlander, Justin",
+        "Jansen, Kenley",
+        "Chavez, Jesse",
+        "Hill, Rich",
+        "Morton, Charlie",
+        "Scherzer, Max",
+        "Martin, Chris",
+        "Cueto, Johnny",
+        "Wilson, Justin",
+        "Lynn, Lance"
+      ],
+      "events": {
+        "min": 1.0,
+        "max": 923.0,
+        "mean": 158.13338658146964
+      },
+      "HardHit%": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 28.936632629662174
+      },
+      "Barrel%": {
+        "min": 0.0,
+        "max": 25.0,
+        "mean": 1.7092399978136885
+      },
+      "Avg Velo": {
+        "min": 36.51333333333334,
+        "max": 97.64070588235295,
+        "mean": 87.47528544862057
+      },
+      "Avg Spin Rate": {
+        "min": 898.8888888888889,
+        "max": 2878.486641221374,
+        "mean": 2214.8580202748726
+      },
+      "xwOBA": {
+        "min": 0.001666666666666667,
+        "max": 0.6878590909090909,
+        "mean": 0.3353952921385961
+      },
+      "xBA": {
+        "min": 0.006,
+        "max": 0.946,
+        "mean": 0.3235812904626036
+      },
+      "Avg Extension": {
+        "min": 3.273913043478261,
+        "max": 7.68409090909091,
+        "mean": 6.286618663997728
+      },
+      "Rel Pos X": {
+        "min": -4.454347826086956,
+        "max": 4.238867427568042,
+        "mean": -0.9215602557589221
+      },
+      "Rel Pos Z": {
+        "min": 1.241336161187699,
+        "max": 7.867142857142857,
+        "mean": 5.770629625130216
+      },
+      "Horz Break": {
+        "min": -1.299224299065421,
+        "max": 1.425,
+        "mean": -0.14765829603828892
+      },
+      "Vert Break": {
+        "min": -0.398235294117647,
+        "max": 2.0775,
+        "mean": 0.6259626530150446
+      },
+      "Spin Axis": {
+        "min": 84.63911525029104,
+        "max": 266.0791443850267,
+        "mean": 178.16027995853983
+      },
+      "Plate X": {
+        "min": -1.2,
+        "max": 1.12,
+        "mean": 0.03290921506881255
+      },
+      "Plate Z": {
+        "min": 1.145,
+        "max": 4.172380952380952,
+        "mean": 2.365356456359101
+      },
+      "vx0": {
+        "min": -11.96883535257087,
+        "max": 11.32489922315605,
+        "mean": 2.6497510189696833
+      },
+      "vy0": {
+        "min": -142.1268910859681,
+        "max": -51.84892040108115,
+        "mean": -127.21119736769192
+      },
+      "vz0": {
+        "min": -10.91972729680493,
+        "max": 9.915375360344534,
+        "mean": -3.2361459297381474
+      },
+      "ax": {
+        "min": -17.13821422707001,
+        "max": 20.03958543346706,
+        "mean": -2.554957721934355
+      },
+      "ay": {
+        "min": 4.207713596612299,
+        "max": 34.06429411933811,
+        "mean": 26.556269501341657
+      },
+      "az": {
+        "min": -38.45807514158939,
+        "max": -12.80390637240303,
+        "mean": -24.3726660014106
+      },
+      "Avg Hit Distance": {
+        "min": 3.0,
+        "max": 377.0,
+        "mean": 159.65742330504773
+      },
+      "Avg Exit Velo": {
+        "min": 58.45,
+        "max": 109.6,
+        "mean": 83.52343735692499
+      },
+      "Avg Launch Angle": {
+        "min": -39.0,
+        "max": 61.0,
+        "mean": 18.443471554100306
+      },
+      "Avg Zone": {
+        "min": 4.5,
+        "max": 14.0,
+        "mean": 9.02107272470165
+      },
+      "Avg Outs": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 1.0441224040146766
+      },
+      "Avg Inning": {
+        "min": 1.0,
+        "max": 10.53571428571429,
+        "mean": 6.2411559387503655
+      }
+    }
+  },
+  "layerfive": {
+    "rows": 31,
+    "columns": [
+      "Team",
+      "Avg EV",
+      "Max EV",
+      "Avg LA",
+      "xwOBA",
+      "Barrel %",
+      "Hard Hit %",
+      "K %",
+      "BB %"
+    ],
+    "sample_data": {
+      "Team": [
+        "ATH",
+        "ATL",
+        "AZ",
+        "BAL",
+        "BOS",
+        "CHC",
+        "CIN",
+        "CLE",
+        "COL",
+        "CWS"
+      ],
+      "Avg EV": {
+        "min": 81.84298808881918,
+        "max": 83.24499743935938,
+        "mean": 82.70628714986141
+      },
+      "Max EV": {
+        "min": 114.7,
+        "max": 122.9,
+        "mean": 118.37741935483871
+      },
+      "Avg LA": {
+        "min": 14.34808972146907,
+        "max": 18.80377376608412,
+        "mean": 17.281465144345567
+      },
+      "xwOBA": {
+        "min": 0.3035409426267434,
+        "max": 0.3297225586065828,
+        "mean": 0.3184543117668522
+      },
+      "Barrel %": {
+        "min": 0.3531379716250542,
+        "max": 0.5533474713144109,
+        "mean": 0.47462107124079644
+      },
+      "Hard Hit %": {
+        "min": 6.694333646175505,
+        "max": 8.70826603101918,
+        "mean": 7.879303315503839
+      },
+      "K %": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "BB %": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "layersix": {
+    "rows": 3265,
+    "columns": [
+      "Game Time",
+      "Team",
+      "Batter",
+      "Batter ID",
+      "Opposing Pitcher ID",
+      "pitch_type",
+      "Swings",
+      "Whiffs",
+      "Strikeouts",
+      "PutAwaySwings",
+      "TwoStrikePitches",
+      "xwOBA",
+      "xBA",
+      "Avg EV",
+      "Avg LA",
+      "HardHits",
+      "release_speed",
+      "release_pos_x",
+      "release_pos_z",
+      "pfx_x",
+      "pfx_z",
+      "plate_x",
+      "plate_z",
+      "sz_top",
+      "sz_bot",
+      "PA",
+      "Whiff%",
+      "K%",
+      "PutAway%",
+      "HardHit%"
+    ],
+    "sample_data": {
+      "Game Time": [
+        "2025-07-12T17:05:00Z",
+        "2025-07-12T17:10:00Z",
+        "2025-07-12T18:10:00Z",
+        "2025-07-12T18:15:00Z",
+        "2025-07-12T20:05:00Z",
+        "2025-07-12T20:10:00Z",
+        "2025-07-12T23:35:00Z",
+        "2025-07-13T01:38:00Z",
+        "2025-07-13T02:05:00Z"
+      ],
+      "Team": [
+        "Chicago Cubs",
+        "New York Yankees",
+        "Seattle Mariners",
+        "Detroit Tigers",
+        "Pittsburgh Pirates",
+        "St. Louis Cardinals",
+        "Los Angeles Dodgers",
+        "San Francisco Giants",
+        "Miami Marlins",
+        "Baltimore Orioles"
+      ],
+      "Batter": [
+        "Oswald Peraza",
+        "Jorbit Vivas",
+        "Aaron Judge",
+        "Paul Goldschmidt",
+        "Jasson Dom\u00ednguez",
+        "Austin Wells",
+        "Ben Rice",
+        "J.C. Escarra",
+        "Anthony Volpe",
+        "Cody Bellinger"
+      ],
+      "Batter ID": {
+        "min": 455117.0,
+        "max": 810938.0,
+        "mean": 654791.6425727411
+      },
+      "Opposing Pitcher ID": {
+        "min": 506433.0,
+        "max": 829272.0,
+        "mean": 642069.1837672282
+      },
+      "pitch_type": [
+        "CH",
+        "CU",
+        "FC",
+        "FF",
+        "FS",
+        "KC",
+        "SI",
+        "SL",
+        "ST"
+      ],
+      "Swings": {
+        "min": 0.0,
+        "max": 566.0,
+        "mean": 81.15252679938745
+      },
+      "Whiffs": {
+        "min": 0.0,
+        "max": 208.0,
+        "mean": 18.747626339969372
+      },
+      "Strikeouts": {
+        "min": 0.0,
+        "max": 78.0,
+        "mean": 9.622052067381317
+      },
+      "PutAwaySwings": {
+        "min": 0.0,
+        "max": 60.0,
+        "mean": 6.092802450229709
+      },
+      "TwoStrikePitches": {
+        "min": 0.0,
+        "max": 371.0,
+        "mean": 51.62143950995406
+      },
+      "xwOBA": {
+        "min": 0.0,
+        "max": 1.74,
+        "mean": 0.29542322837620794
+      },
+      "xBA": {
+        "min": 0.001,
+        "max": 0.927,
+        "mean": 0.32545184375759056
+      },
+      "Avg EV": {
+        "min": 20.1,
+        "max": 110.3,
+        "mean": 81.95504241365224
+      },
+      "Avg LA": {
+        "min": -76.0,
+        "max": 61.0,
+        "mean": 11.728769720399882
+      },
+      "HardHits": {
+        "min": 0.0,
+        "max": 122.0,
+        "mean": 14.575803981623277
+      },
+      "release_speed": {
+        "min": 74.2,
+        "max": 96.56666666666666,
+        "mean": 86.62839824319111
+      },
+      "release_pos_x": {
+        "min": -4.395,
+        "max": 3.353333333333333,
+        "mean": -0.8239914118213032
+      },
+      "release_pos_z": {
+        "min": 4.205,
+        "max": 6.64,
+        "mean": 5.768204590829127
+      },
+      "pfx_x": {
+        "min": -1.325,
+        "max": 1.58,
+        "mean": -0.01751757198312655
+      },
+      "pfx_z": {
+        "min": -1.3,
+        "max": 1.583333333333333,
+        "mean": 0.21688634590800107
+      },
+      "plate_x": {
+        "min": -2.04,
+        "max": 1.66,
+        "mean": 0.061293935988664706
+      },
+      "plate_z": {
+        "min": 0.64,
+        "max": 4.32,
+        "mean": 2.0866440632720638
+      },
+      "sz_top": {
+        "min": 2.838661971830986,
+        "max": 4.03,
+        "mean": 3.383978879000144
+      },
+      "sz_bot": {
+        "min": 1.272886597938144,
+        "max": 1.93,
+        "mean": 1.592905495751024
+      },
+      "PA": {
+        "min": -1.0,
+        "max": 509.0,
+        "mean": 72.02695252679939
+      },
+      "Whiff%": {
+        "min": 0.0,
+        "max": Infinity,
+        "mean": Infinity
+      },
+      "K%": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.1742297721814594
+      },
+      "PutAway%": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.12615733880259827
+      },
+      "HardHit%": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1912636108281166
+      }
+    }
+  },
+  "layerseven": {
+    "rows": 31,
+    "columns": [
+      "Team",
+      "PA",
+      "Whiff%",
+      "K%",
+      "BB%",
+      "HR/9",
+      "HardHit%",
+      "Avg EV",
+      "Avg LA",
+      "xwOBA",
+      "xBA",
+      "Release Velo",
+      "Release Extension",
+      "Spin Rate"
+    ],
+    "sample_data": {
+      "Team": [
+        "ATH",
+        "ATL",
+        "AZ",
+        "BAL",
+        "BOS",
+        "CHC",
+        "CIN",
+        "CLE",
+        "COL",
+        "CWS"
+      ],
+      "PA": {
+        "min": 2522.0,
+        "max": 9480.0,
+        "mean": 7367.5161290322585
+      },
+      "Whiff%": {
+        "min": 0.2146297411198073,
+        "max": 0.289891395154553,
+        "mean": 0.25515977564458836
+      },
+      "K%": {
+        "min": 0.05218256789421299,
+        "max": 0.07057890563045202,
+        "mean": 0.060915008599756494
+      },
+      "BB%": {
+        "min": 0.01805772785440068,
+        "max": 0.02735648476257973,
+        "mean": 0.0229846604947281
+      },
+      "HR/9": {
+        "min": 0.1166174130484201,
+        "max": 0.2756143667296787,
+        "mean": 0.18365470970171383
+      },
+      "HardHit%": {
+        "min": 0.05984628953004913,
+        "max": 0.08844021043651358,
+        "mean": 0.07489565816451028
+      },
+      "Avg EV": {
+        "min": 81.62793791574286,
+        "max": 83.53916632274053,
+        "mean": 82.69009525966187
+      },
+      "Avg LA": {
+        "min": 14.23623262995368,
+        "max": 20.16814843448009,
+        "mean": 17.510395399522704
+      },
+      "xwOBA": {
+        "min": 0.2782654860248449,
+        "max": 0.3377924733333323,
+        "mean": 0.3112635928952091
+      },
+      "xBA": {
+        "min": 0.3050490196078431,
+        "max": 0.3490904942965776,
+        "mean": 0.32137830447107396
+      },
+      "Release Velo": {
+        "min": 89.23846808510638,
+        "max": 90.8579952968842,
+        "mean": 90.01503053748377
+      },
+      "Release Extension": {
+        "min": 6.179575738194222,
+        "max": 6.606900847035376,
+        "mean": 6.385427572381807
+      }
+    }
+  },
+  "layereight": {
+    "rows": 15,
+    "columns": [
+      "GamePk",
+      "Official Date",
+      "Game Time (UTC)",
+      "Game Type",
+      "Series Description",
+      "Series Game Number",
+      "Doubleheader",
+      "Venue",
+      "Venue ID",
+      "Home Team",
+      "Away Team",
+      "Condition",
+      "Temp (F)",
+      "Wind (text)",
+      "Wind Speed (mph)",
+      "Wind Direction"
+    ],
+    "sample_data": {
+      "GamePk": {
+        "min": 777126.0,
+        "max": 777145.0,
+        "mean": 777136.0666666667
+      },
+      "Official Date": [
+        "2025-07-12"
+      ],
+      "Game Time (UTC)": [
+        "2025-07-12T17:05:00Z",
+        "2025-07-12T17:10:00Z",
+        "2025-07-12T18:10:00Z",
+        "2025-07-12T18:15:00Z",
+        "2025-07-12T20:05:00Z",
+        "2025-07-12T20:10:00Z",
+        "2025-07-12T23:35:00Z",
+        "2025-07-13T01:38:00Z",
+        "2025-07-13T02:05:00Z"
+      ],
+      "Game Type": [
+        "R"
+      ],
+      "Series Description": [
+        "Regular Season"
+      ],
+      "Series Game Number": {
+        "min": 2.0,
+        "max": 3.0,
+        "mean": 2.1333333333333333
+      },
+      "Doubleheader": [
+        "N"
+      ],
+      "Venue": [
+        "Yankee Stadium",
+        "Comerica Park",
+        "Target Field",
+        "Busch Stadium",
+        "Oracle Park",
+        "Oriole Park at Camden Yards",
+        "Great American Ball Park",
+        "Kauffman Stadium",
+        "Fenway Park",
+        "Rate Field"
+      ],
+      "Venue ID": {
+        "min": 1.0,
+        "max": 3313.0,
+        "mean": 1637.0
+      },
+      "Home Team": [
+        "New York Yankees",
+        "Detroit Tigers",
+        "Minnesota Twins",
+        "St. Louis Cardinals",
+        "San Francisco Giants",
+        "Baltimore Orioles",
+        "Cincinnati Reds",
+        "Kansas City Royals",
+        "Boston Red Sox",
+        "Chicago White Sox"
+      ],
+      "Away Team": [
+        "Chicago Cubs",
+        "Seattle Mariners",
+        "Pittsburgh Pirates",
+        "Atlanta Braves",
+        "Los Angeles Dodgers",
+        "Miami Marlins",
+        "Colorado Rockies",
+        "New York Mets",
+        "Tampa Bay Rays",
+        "Cleveland Guardians"
+      ],
+      "Condition": [
+        "Partly Cloudy",
+        "Cloudy"
+      ],
+      "Temp (F)": {
+        "min": 77.0,
+        "max": 88.0,
+        "mean": 82.66666666666667
+      },
+      "Wind (text)": [
+        "7 mph, In From RF",
+        "13 mph, In From RF",
+        "12 mph, Out To CF"
+      ]
+    }
+  },
+  "layerten": {
+    "rows": 420,
+    "columns": [
+      "Team",
+      "Season",
+      "Split",
+      "PA",
+      "AB",
+      "H",
+      "2B",
+      "3B",
+      "HR",
+      "R",
+      "RBI",
+      "BB",
+      "SO",
+      "HBP",
+      "SB",
+      "CS",
+      "GIDP",
+      "XBH",
+      "TB",
+      "TOB",
+      "LOB",
+      "GO",
+      "AO",
+      "AVG",
+      "OBP",
+      "SLG",
+      "OPS",
+      "BABIP",
+      "P/PA",
+      "BB/K",
+      "K%",
+      "BB%",
+      "ISO"
+    ],
+    "sample_data": {
+      "Team": [
+        "Athletics",
+        "Pittsburgh Pirates",
+        "San Diego Padres",
+        "Seattle Mariners",
+        "San Francisco Giants",
+        "St. Louis Cardinals",
+        "Tampa Bay Rays",
+        "Texas Rangers",
+        "Toronto Blue Jays",
+        "Minnesota Twins"
+      ],
+      "Season": {
+        "min": 2019.0,
+        "max": 2025.0,
+        "mean": 2022.0
+      },
+      "Split": [
+        "vsLHP",
+        "vsRHP"
+      ],
+      "PA": {
+        "min": 187.0,
+        "max": 747.0,
+        "mean": 522.2571428571429
+      },
+      "AB": {
+        "min": 154.0,
+        "max": 681.0,
+        "mean": 465.67619047619047
+      },
+      "H": {
+        "min": 42.0,
+        "max": 217.0,
+        "mean": 134.24285714285713
+      },
+      "2B": {
+        "min": 3.0,
+        "max": 59.0,
+        "mean": 26.19047619047619
+      },
+      "3B": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 2.3714285714285714
+      },
+      "HR": {
+        "min": 0.0,
+        "max": 62.0,
+        "mean": 20.152380952380952
+      },
+      "R": {
+        "min": 19.0,
+        "max": 149.0,
+        "mean": 72.52380952380952
+      },
+      "RBI": {
+        "min": 10.0,
+        "max": 144.0,
+        "mean": 67.43333333333334
+      },
+      "BB": {
+        "min": 5.0,
+        "max": 145.0,
+        "mean": 46.65238095238095
+      },
+      "SO": {
+        "min": 18.0,
+        "max": 218.0,
+        "mean": 98.49047619047619
+      },
+      "HBP": {
+        "min": 0.0,
+        "max": 27.0,
+        "mean": 5.738095238095238
+      },
+      "SB": {
+        "min": 0.0,
+        "max": 73.0,
+        "mean": 10.68095238095238
+      },
+      "CS": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 3.0047619047619047
+      },
+      "GIDP": {
+        "min": 0.0,
+        "max": 30.0,
+        "mean": 9.719047619047618
+      },
+      "XBH": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "TB": {
+        "min": 72.0,
+        "max": 411.0,
+        "mean": 225.63333333333333
+      },
+      "TOB": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "LOB": {
+        "min": 50.0,
+        "max": 284.0,
+        "mean": 177.13809523809525
+      },
+      "GO": {
+        "min": 32.0,
+        "max": 218.0,
+        "mean": 116.32380952380953
+      },
+      "AO": {
+        "min": 23.0,
+        "max": 234.0,
+        "mean": 120.57142857142857
+      },
+      "AVG": {
+        "min": 0.219,
+        "max": 0.364,
+        "mean": 0.28887619047619045
+      },
+      "OBP": {
+        "min": 0.278,
+        "max": 0.49,
+        "mean": 0.35838571428571425
+      },
+      "SLG": {
+        "min": 0.318,
+        "max": 0.725,
+        "mean": 0.484547619047619
+      },
+      "OPS": {
+        "min": 0.606,
+        "max": 1.187,
+        "mean": 0.8429333333333334
+      },
+      "BABIP": {
+        "min": 0.235,
+        "max": 0.423,
+        "mean": 0.32730000000000004
+      },
+      "P/PA": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "BB/K": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "K%": {
+        "min": 0.03435114503816794,
+        "max": 0.3269961977186312,
+        "mean": 0.18868602976119553
+      },
+      "BB%": {
+        "min": 0.02164502164502164,
+        "max": 0.2217125382262997,
+        "mean": 0.08956116171451935
+      },
+      "ISO": {
+        "min": 0.04500000000000004,
+        "max": 0.3789999999999999,
+        "mean": 0.19567142857142858
+      }
+    }
+  },
+  "layereleven": {
+    "rows": 99188,
+    "columns": [
+      "BatterName",
+      "PitcherName",
+      "batter",
+      "pitcher",
+      "PA",
+      "Hits",
+      "HR",
+      "BB",
+      "K",
+      "AVG",
+      "OBP",
+      "SLG",
+      "OPS",
+      "ISO",
+      "K%",
+      "BB%"
+    ],
+    "sample_data": {
+      "BatterName": [
+        "david peralta",
+        "charlie blackmon",
+        "mart\u00edn maldonado",
+        "donovan solano",
+        "andrew mccutchen",
+        "justin turner",
+        "carlos santana",
+        "yuli gurriel",
+        "miguel rojas",
+        "tommy pham"
+      ],
+      "PitcherName": [
+        "jesse chavez",
+        "adam ottavino",
+        "kyle gibson",
+        "merrill kelly",
+        "erasmo ram\u00edrez",
+        "shawn armstrong",
+        "sonny gray",
+        "daniel hudson",
+        "albert su\u00e1rez",
+        "ildemaro vargas"
+      ],
+      "batter": {
+        "min": 444482.0,
+        "max": 828599.0,
+        "mean": 651554.0402972134
+      },
+      "pitcher": {
+        "min": 434378.0,
+        "max": 829272.0,
+        "mean": 645871.1607250877
+      },
+      "PA": {
+        "min": 0.0,
+        "max": 64.0,
+        "mean": 7.609388232447474
+      },
+      "Hits": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.43881316288260674
+      },
+      "HR": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.06037020607331532
+      },
+      "BB": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "K": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "AVG": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.07876613778489845
+      },
+      "OBP": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.07876613778489845
+      },
+      "SLG": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.0995670784019846
+      },
+      "OPS": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.178344255517081
+      },
+      "ISO": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.02080149878546695
+      },
+      "K%": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "BB%": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "layer12": {
+    "rows": 702,
+    "columns": [
+      "GamePk",
+      "Bookmaker",
+      "MarketType",
+      "TeamOrPlayer",
+      "Odds",
+      "ImpliedProb",
+      "Line",
+      "HomeTeam",
+      "AwayTeam",
+      "CommenceTime",
+      "LastUpdate"
+    ],
+    "sample_data": {
+      "GamePk": [
+        "75cbe2fdd4542eac229e7ea01db8ad2d",
+        "ca8d38151651417a83cf7f73e1b6faed",
+        "4beb03b635c36e5c48e712b1cf77ee27",
+        "3b20754537810ac1e121a043d6a534f1",
+        "70642d005ece4e396411f6ca2bf919ea",
+        "92e8bf20fd79ab6a494ee981c3acfa3e",
+        "d313055095211a9b7f8d3d61142cbe50",
+        "a7569378b45bee076352cff63bc9279e",
+        "ae795e8469b27f14d9342fe845ba5ea0",
+        "3a172472025c8a93b73ee88bcd3c4ff4"
+      ],
+      "Bookmaker": [
+        "FanDuel",
+        "LowVig.ag",
+        "BetOnline.ag",
+        "DraftKings",
+        "BetMGM",
+        "BetRivers",
+        "BetUS",
+        "Bovada"
+      ],
+      "MarketType": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "TeamOrPlayer": [
+        "Chicago Cubs",
+        "New York Yankees",
+        "Over",
+        "Under",
+        "Detroit Tigers",
+        "Seattle Mariners",
+        "Minnesota Twins",
+        "Pittsburgh Pirates",
+        "Atlanta Braves",
+        "St. Louis Cardinals"
+      ],
+      "Odds": {
+        "min": 1.33,
+        "max": 3.43,
+        "mean": 1.9725356125356128
+      },
+      "ImpliedProb": {
+        "min": 29.15,
+        "max": 75.19,
+        "mean": 52.137863247863244
+      },
+      "Line": {
+        "min": -2.5,
+        "max": 10.5,
+        "mean": 4.335470085470085
+      },
+      "HomeTeam": [
+        "New York Yankees",
+        "Detroit Tigers",
+        "Minnesota Twins",
+        "St. Louis Cardinals",
+        "Baltimore Orioles",
+        "San Francisco Giants",
+        "Boston Red Sox",
+        "Chicago White Sox",
+        "Cincinnati Reds",
+        "Kansas City Royals"
+      ],
+      "AwayTeam": [
+        "Chicago Cubs",
+        "Seattle Mariners",
+        "Pittsburgh Pirates",
+        "Atlanta Braves",
+        "Miami Marlins",
+        "Los Angeles Dodgers",
+        "Tampa Bay Rays",
+        "Cleveland Guardians",
+        "Colorado Rockies",
+        "New York Mets"
+      ],
+      "CommenceTime": [
+        "2025-07-12T17:06:00Z",
+        "2025-07-12T17:11:00Z",
+        "2025-07-12T18:11:00Z",
+        "2025-07-12T18:16:00Z",
+        "2025-07-12T20:06:00Z",
+        "2025-07-12T20:11:00Z",
+        "2025-07-12T23:36:00Z",
+        "2025-07-13T01:39:00Z",
+        "2025-07-13T02:06:00Z"
+      ],
+      "LastUpdate": [
+        "2025-07-12T15:33:42Z",
+        "2025-07-12T15:33:51Z",
+        "2025-07-12T15:34:17Z",
+        "2025-07-12T15:34:28Z",
+        "2025-07-12T15:34:29Z",
+        "2025-07-12T15:33:41Z"
+      ]
+    }
+  },
+  "layer13": {
+    "rows": 481,
+    "columns": [
+      "Player Name",
+      "Batter ID",
+      "H",
+      "BB",
+      "TB",
+      "AB",
+      "OUTS",
+      "1B",
+      "2B",
+      "3B",
+      "HR",
+      "SB",
+      "CS",
+      "K",
+      "RC",
+      "SecA",
+      "RC27",
+      "K%",
+      "BABIP",
+      "xwOBA",
+      "xBA",
+      "AvgEV",
+      "AvgLA"
+    ],
+    "sample_data": {
+      "Player Name": [
+        "mart\u00edn maldonado",
+        "donovan solano",
+        "andrew mccutchen",
+        "justin turner",
+        "carlos santana",
+        "miguel rojas",
+        "tommy pham",
+        "paul goldschmidt",
+        "jos\u00e9 altuve",
+        "starling marte"
+      ],
+      "Batter ID": {
+        "min": 455117.0,
+        "max": 810938.0,
+        "mean": 655707.1413721414
+      },
+      "H": {
+        "min": 0.0,
+        "max": 38.0,
+        "mean": 13.841995841995843
+      },
+      "BB": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "TB": {
+        "min": 0.0,
+        "max": 66.0,
+        "mean": 22.995841995841996
+      },
+      "AB": {
+        "min": 0.0,
+        "max": 114.0,
+        "mean": 56.16424116424116
+      },
+      "OUTS": {
+        "min": 0.0,
+        "max": 91.0,
+        "mean": 42.32224532224532
+      },
+      "1B": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 8.954261954261954
+      },
+      "2B": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 2.6486486486486487
+      },
+      "3B": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.21205821205821207
+      },
+      "HR": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 2.027027027027027
+      },
+      "SB": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "CS": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "K": {
+        "min": 0.0,
+        "max": 45.0,
+        "mean": 13.56964656964657
+      },
+      "RC": {
+        "min": 0.0,
+        "max": 21.39622641509434,
+        "mean": 6.01754649382464
+      },
+      "SecA": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.14124287381966502
+      },
+      "RC27": {
+        "min": 0.0,
+        "max": Infinity,
+        "mean": Infinity
+      },
+      "K%": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.266592891785263
+      },
+      "BABIP": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.27497406460616813
+      },
+      "xwOBA": {
+        "min": 0.0,
+        "max": 1.1125,
+        "mean": 0.30128228185532613
+      },
+      "xBA": {
+        "min": 0.003,
+        "max": 0.789,
+        "mean": 0.31443719186502195
+      },
+      "AvgEV": {
+        "min": 20.9,
+        "max": 101.6333333333333,
+        "mean": 87.96986556724696
+      },
+      "AvgLA": {
+        "min": -35.0,
+        "max": 75.0,
+        "mean": 13.855345051268886
+      }
+    }
+  }
+}
